@@ -1,0 +1,5 @@
+id,host,ip,item,key
+1,aaa,10.10.10.10,itemA,keyA
+2,bbb,10.10.10.20,itemB,keyB
+3,ccc,10.10.10.30,itemC,keyC
+4,ddd,10.10.10.40,itemD,keyD

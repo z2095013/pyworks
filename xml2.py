@@ -1,6 +1,4 @@
-# _*_ coding: utf-8 _*_
-
-import xml.etree.ElementTree as et
+# coding: UTF-8
 
 # ファイルを指定
 tree = et.parse('test.xml')
