@@ -1,4 +1,4 @@
-# _*_ coding: utf-8 _*_
+# -*- coding: utf-8 -*-
 
 import sys, csv
 from datetime import datetime,date
@@ -71,3 +71,13 @@ for data in dataReader:
     #f.write(tree)
     #f.close()
 file.close()
+
+
+if __name__ == "__main__":
+    import sys
+    try:
+        csvfile = sys.argv[1]
+        xmlfile = str(sys.argv[1]).split('.')[0] + '.xml'
+        createxml()
+    except IndexError:
+        print 'csvファイルを指定してください。'
