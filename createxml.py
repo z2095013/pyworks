@@ -53,6 +53,7 @@ def createxml():
     tree = minidom.parseString(tostring(zabbix)).toprettyxml()
     #print tree
     f.write(tree)
+    f.flush()
     f.close()
 
 

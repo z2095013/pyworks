@@ -70,6 +70,7 @@ for data in dataReader:
     print tree
     #f.write(tree)
     #f.close()
+file.flush()
 file.close()
 
 

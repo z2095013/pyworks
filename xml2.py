@@ -1,4 +1,4 @@
-# coding: UTF-8
+-*- # coding: UTF-8 -*-
 
 # ファイルを指定
 tree = et.parse('test.xml')
